@@ -8,7 +8,7 @@ const port = 1245;
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello Holberton School!');
+  res.send('Hello ALX:');
 });
 
 app.listen(port, host, () => {
